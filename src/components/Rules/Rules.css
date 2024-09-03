@@ -1,0 +1,34 @@
+.rules-container {
+    margin-top: 5rem;
+  }
+  
+  .rules-heading {
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  .rules-list {
+    list-style-type: none;
+    padding: 0;
+    color: #5c6f7b;
+    font-size: 1.1rem;
+    line-height: 1.6; 
+  }
+  
+  .rules-list li {
+    margin: 0.5rem 0;
+    position: relative;
+    padding-left: 20px; 
+  }
+  
+  .rules-list li::before {
+    content: "✔"; 
+    color: #3b82f6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem; 
+  }
+  
