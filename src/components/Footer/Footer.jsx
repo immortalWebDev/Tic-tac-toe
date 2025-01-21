@@ -5,7 +5,7 @@ const Footer = () => {
 
     return(
         <footer>
-        <p>Created by Piyush Badgujar</p>
+        <p>Created with 💝 by <a href="https://web-portfolio-piyush.vercel.app/" target="_blank">Piyush</a></p>
       </footer>
     )
 }
